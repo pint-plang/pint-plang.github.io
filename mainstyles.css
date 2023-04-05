@@ -46,7 +46,7 @@ nav a {
 }
 
 nav a:link {
-  color: #000033;
+  color: #000066;
 }
 
 nav a:visited {
@@ -122,4 +122,26 @@ main ul {
 
 header, nav, main, footer {
   display: block;
+}
+
+#teamGrid {
+  
+  text-align: center;
+  display: grid;
+  grid-auto-columns: minmax(0, 1fr);
+  grid-auto-flow: column;
+  padding-left: 10%;
+  padding-right: 10%;
+  
+}
+
+#teamGrid img {
+  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  float: initial;
+  padding: 0;
+  
 }
